@@ -30,7 +30,7 @@ export class AppComponent {
       name: ['', this.formModel.field1],
       name2: ['', this.formModel.field2],
       name3: ['', this.formModel.field3],
-
+     
     });
   }
 }
