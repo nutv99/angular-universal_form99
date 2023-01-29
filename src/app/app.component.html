@@ -3,7 +3,8 @@
 <h2>Staff Detail</h2>
 <h3><i>FormControl in a FormGroup</i></h3>
 <form [formGroup]="staffForm" novalidate>
-  <div class="form-group">
+
+  <div class="form-group" *nfIf='field1Visible'>
     <label class="center-block"
       >Name:
       <input type= {{field1Type}} class="form-control" formControlName="name" />

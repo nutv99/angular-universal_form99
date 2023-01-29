@@ -24,6 +24,7 @@ export class AppComponent {
 
   field1: any = 'Validators.required';
   field1Type: string = 'number';
+  field1Visible: boolean = true;
 
   createForm() {
     this.staffForm = this.fb.group({
